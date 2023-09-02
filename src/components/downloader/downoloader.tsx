@@ -1,8 +1,5 @@
 "use client"
 import './downloader.css'
-import axios from 'axios';
-import ytdl from 'ytdl-core';
-import { useState } from 'react';
 
 function paste() {
     // Obtener el elemento input
@@ -49,6 +46,7 @@ export default function downloader() {
             <div className='contenedor-boton flex justify-center'>
                 <button className='btn-descargar text-white font-bold' onClick={()=>{alert("Lo sentimos el sistema esta en fase Beta - Gracias 😘")}}>Descargar</button>
             </div>
+            <img className="m-auto mt-20 h-72" src="https://familiavance.com/wp-content/uploads/2018/07/pagina-construccion.jpg" alt="stop" />
         </>
     )
 }
