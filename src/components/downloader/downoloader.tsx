@@ -47,7 +47,7 @@ export default function downloader() {
                 </select>
             </div>
             <div className='contenedor-boton flex justify-center'>
-                <button className='btn-descargar text-white font-bold' >Descargar</button>
+                <button className='btn-descargar text-white font-bold' onClick={()=>{alert("Lo sentimos el sistema esta en fase Beta - Gracias 😘")}}>Descargar</button>
             </div>
         </>
     )
