@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.header {
+    height: 10vh;
+    background: #36D1DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header-logo {
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4vh;
+}
+
+.header-logo:hover {
+    -webkit-text-stroke: 0.2px white;
+}
+
+.header-opcion {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 900;
+    font-size: 2.5vh;
+    -webkit-text-stroke: 0.5px rgb(220, 228, 198);
+}
+
+.header-opcion:hover {
+    color: white;
+}
+
+.header-login {
+    font-weight: bolder;
+    font-size: 2.4vh;
+    background-color: blueviolet;
+    min-width: 10vh;
+    text-align: center;
+    border-radius: 3vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-login:hover {
+    transform: scale(1.2);
+    color: white;
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width:1024px) {
+    .header {
+        margin: 2%;
+        margin-top: 0%;
+        border-radius: 0px 0px 20px 20px;
+    }
+}

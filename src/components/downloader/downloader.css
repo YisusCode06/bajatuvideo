@@ -1,0 +1,52 @@
+/* .download {} */
+
+.pegar {
+    min-width: 50px;
+    width: 25%;
+    background-color: green;
+    margin-right: 2%;
+    border-radius: 15px;
+}
+
+.link {
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.contenedor-formato {
+    margin-top: 5%;
+}
+
+.formato {
+    border-radius: 15px;
+    width: 100%;
+    padding: 2%;
+}
+
+
+.btn-descargar{
+    background-color: blue;
+    margin-top: 5%;
+    min-width: 100px;
+    width: 50%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+@media (min-width: 1024px) {
+    .link {
+        border-radius: 15px;
+        padding: 1%;
+    }
+    .contenedor-formato {
+        margin-top: 1%;
+    }
+    .formato {
+        padding: 1%;
+    }
+    .btn-descargar{
+        width: 20%;
+        margin-top: 2%;
+        padding: 1%;
+    }
+}
